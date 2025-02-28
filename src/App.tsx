@@ -7,7 +7,7 @@ import TodayRecipesPage from './pages/TodayRecipesPage';
 
 const App: React.FC = () => {
     return (
-        <Router>
+        <Router basename="/test-task">
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/recipe/:idMeal" element={<RecipePage />} />
